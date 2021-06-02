@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+	transition:all ease 0.5s;
+
+}
+
+body {
+
+	background: #CBE4FA
+}
+
+:hover{
+	transition:all ease 0.5s;
+}
+
+a.nav-link{
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+section header{
+	height:auto;
+	min-height: 60vh;
+}
+
+section#hello header{
+	background:silver url('https://picsum.photos/id/1018/3914/2935') center center no-repeat;
+	background-size:cover;
+	font-family: sans-serif;
+}
+
+
+section#work header{
+	background:silver url('https://picsum.photos/id/876/6016/4016') center center no-repeat;
+	background-size:cover;
+	font-family: sans-serif;
+}
+
+section#contact header{
+	background:silver url('https://picsum.photos/id/699/4592/2576') center center no-repeat;
+	background-size:cover;	
+	font-family: sans-serif;
+
+}
+
+#portfolio {
+	min-height: 400vh;
+}
+@media screen and (orientation:portrait){
+	#portfolio{
+		min-height: 600vh
+	}
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:70px;
+	margin:-70px 0 0;
+}
+
